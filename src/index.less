@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.pageBox {
+  position: relative;
+  overflow-y: auto;
+  height: 100vh;
+  .headerBox{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    right: 0;
+  }
+  // .footerBox{
+  //   position: fixed;
+  //   bottom: 52px;
+  //   left: 0;
+  //   right: 0;
+  //   height: 200px;
+  //   width: 100%;
+  // }
+  .drawrBox{
+    position: fixed;
+    background-color: #fafafa;
+    top:52px;
+    height: calc(100vh - 52px);
+    width: 220px;
+    z-index: 999;
+    // background-color: skyblue;
+    border: 1px solid #ccc;
+    li{
+      padding: 20px 10px;
+
+      a{
+        text-decoration: none;
+        color: #000;
+      }
+    }
+
+  }
+
+  .contentInfo {
+    position: absolute;
+    top: 52px;
+    left: 0px;
+    right: 0;
+    height: calc(100vh - 52px);
+    overflow: auto;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  .drawrBox{
+    display: none;
+  }
+}

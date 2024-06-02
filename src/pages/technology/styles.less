@@ -1,0 +1,30 @@
+
+.technologyBox{
+    position: relative;
+    // border: 1px solid red;
+    // height: 100vh;
+    .technologyLeft{
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        top: 52px;
+        width: 252px;
+        height: calc(100vh - 52px);
+    }
+    .technologyRight{
+        position: absolute;
+        top: 52px;
+        // z-index: 99;
+        div{
+            margin-bottom: 25px;
+            // height: 200px;
+            h2{
+                text-align: center;
+            }
+        &:last-child{
+            margin-bottom: 0;
+        }
+        }
+    }
+
+}
