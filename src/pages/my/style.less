@@ -41,8 +41,25 @@
 
     .workExperience {
       margin-top: 30px;
-      .workOne{
-        .companyName
+
+      .workOne {
+         .companyName{
+            display: flex;
+            justify-content: space-between;
+           .companyNameBox{
+             display: flex;
+             align-items: center;
+             &>p{
+               margin-left: 5px;
+             }
+           }
+         }
+         .workContent{
+           margin: 5px 0;
+           li{
+             list-style-type: decimal;
+           }
+         }
       }
     }
   }
