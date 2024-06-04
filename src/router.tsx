@@ -3,7 +3,6 @@ import MyPage from "./pages/my";
 import ProblemPage from "./pages/problem";
 import HomePage from "./pages/home";
 import ComHeader from "./components/comHeader";
-import ComFooter from "./components/comFooter";
 import "./index.less";
 import TechnologyPage from "./pages/technology";
 import BlogPage from "./pages/blog";
@@ -40,9 +39,9 @@ export default function Router() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [open, isHeaderClicked]);
-  const clickFooter = () => {
-    window.open("https://beian.miit.gov.cn/");
-  };
+  // const clickFooter = () => {
+  //   window.open("https://beian.miit.gov.cn/");
+  // };
   return (
     <div className="pageBox">
       <Row>
@@ -62,9 +61,9 @@ export default function Router() {
             </BrowserRouter>
           </div>
         </Col>
-        <Col span={24}>
+        {/* <Col span={24}>
           <ComFooter onClick={clickFooter} />
-        </Col>
+        </Col> */}
       </Row>
       {open && (
         <div className="drawrBox" ref={divRef}>

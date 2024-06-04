@@ -1,6 +1,10 @@
 // import { useNavigate } from 'react-router-dom'
+import ComFooter from "../../components/comFooter";
 import "./style.less";
 const HomePage = () => {
+  const clickFooter = () => {
+    window.open("https://beian.miit.gov.cn/");
+  };
   // const navigate = useNavigate()
   return (
     <div className="homeBox">
@@ -11,6 +15,9 @@ const HomePage = () => {
           <h3>默观风起，静见枫落。</h3>
           <h3>不断进步，不求甚解。</h3>
         </div>
+      </div>
+      <div>
+        <ComFooter onClick={clickFooter} />
       </div>
     </div>
   );
