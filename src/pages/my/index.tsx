@@ -121,7 +121,7 @@ const MyPage = () => {
                 <h3>机械化管理</h3>
                 <p>前端开发工程师</p>
               </div>
-              <div className="projectNameRight">2023.10-2024.01</div>
+              <div className="projectNameRight">2023.10-2024.02</div>
             </div>
             <div className="projectDetail">
               项目描述：本项目主要为智能化所带来的我机械化考核所做项目。
@@ -143,8 +143,109 @@ const MyPage = () => {
             </div>
           </div>
           {/* 3 */}
+          <div className="projectThree">
+            <div className="projectName">
+              <div className="projectNameLeft">
+                <h3>司机任务分配(小程序+移动端)</h3>
+                <p>前端开发工程师</p>
+              </div>
+              <div className="projectNameRight">2024.01-2024.03</div>
+            </div>
+            <div className="projectDetail">
+              项目描述：本项目主要为司机领取机械化管理设定的任务所制作的移动端与小程序。
+              司机根据自己所在片区查看片区所有任务，领取属于自己的任务，并填写相关数据用于考核。
+            </div>
+            <div className="projecttechnology">
+              项目技术：小程序(React + Taro + TaroUI + Redux ); 移动端(React +
+              Umi + Antd-Mobile + Mockjs )
+            </div>
+            <div className="projectDuty">
+              <p>项目职责:</p>
+              <ul>
+                <li>负责任务领取，任务大厅以及历史任务开发;</li>
+                <li>处理不同时间段展示不同任务;</li>
+                <li>处理IOS和Android的navigationBar差异;</li>
+                <li>研究不同系统在小程序与移动端适配问题。</li>
+              </ul>
+            </div>
+          </div>
           {/* 4 */}
+          <div className="projectFour">
+            <div className="projectName">
+              <div className="projectNameLeft">
+                <h3>知权专利</h3>
+                <p>前端开发工程师</p>
+              </div>
+              <div className="projectNameRight">2023.04-2024.09</div>
+            </div>
+            <div className="projectDetail">
+              项目描述：本项目主要海口一律所针对用户申请专利所开发。用户进入平台注册登录后可进行专利申请，
+              同时可以查看自己的专利申请进度。律所端可以查看所有专利申请进度，并查看专利申请详情。
+            </div>
+            <div className="projecttechnology">
+              项目技术：React + And Design + Axios + AHooks + Vite
+            </div>
+            <div className="projectDuty">
+              <p>项目职责:</p>
+              <ul>
+                <li>负责申请专利页面，用户中心页面，专利进度页面开发;</li>
+                <li>处理页面搜索防抖提高使用体验;</li>
+                <li>使用Ant Design进行页面绘制;</li>
+              </ul>
+            </div>
+          </div>
           {/* 5 */}
+          <div className="projectFive">
+            <div className="projectName">
+              <div className="projectNameLeft">
+                <h3>知会</h3>
+                <p>前端开发工程师(实习)</p>
+              </div>
+              <div className="projectNameRight">2022.10-2023.02</div>
+            </div>
+            <div className="projectDetail">
+              项目描述：本项目主要做的是公司内部信息发布通知系统。员工端主要用于获取所属部门发布信息通知等。
+              领导端则对当前部门事项进行通知发布。
+            </div>
+            <div className="projecttechnology">
+              项目技术：React + And Design + Axios + AHooks + Dayjs + Vite +
+              Redux
+            </div>
+            <div className="projectDuty">
+              <p>项目职责:</p>
+              <ul>
+                <li>负责用户中心页面，信息展示页面开发;</li>
+                <li>根据UI图绘制相关页面与交互;</li>
+                <li>研究React相关hooks的使用;</li>
+              </ul>
+            </div>
+          </div>
+          {/* 6 */}
+          <div className="projectFive">
+            <div className="projectName">
+              <div className="projectNameLeft">
+                <h3>趣卡淘</h3>
+                <p>前端开发工程师(实习)</p>
+              </div>
+              <div className="projectNameRight">2022.05-2022.09</div>
+            </div>
+            <div className="projectDetail">
+              项目描述：本项目用于发布收藏卡片的App。用户注册登录后可以查看所有卡片，
+              若有想出售的卡片可以在发布卡片页面填写相关信息进行卡片发布。
+            </div>
+            <div className="projecttechnology">
+              项目技术：Vue + ElementUI + Axios + Lodash + Vite
+            </div>
+            <div className="projectDuty">
+              <p>项目职责:</p>
+              <ul>
+                <li>负责用户中心页面，卡片详情页面开发;</li>
+                <li>根据UI图绘制相关页面与交互;</li>
+                <li>了解整个项目不同模块需求绘制相关交互;</li>
+                <li>研究Vue相关语法糖的使用。</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div className="footerBox">
