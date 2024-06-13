@@ -1,29 +1,35 @@
 
 .technologyBox{
-    position: relative;
-    // border: 1px solid red;
-    // height: 100vh;
+    display: flex;
+    margin-top: 52px;
+
     .technologyLeft{
-        position: fixed;
-        z-index: 100;
-        left: 0;
-        top: 52px;
-        width: 252px;
-        height: calc(100vh - 52px);
+        margin-right: 100px;
     }
     .technologyRight{
-        position: absolute;
-        top: 52px;
-        // z-index: 99;
+        flex: 1;
         div{
             margin-bottom: 25px;
-            // height: 200px;
+            width: 100%;
             h2{
                 text-align: center;
             }
-        &:last-child{
-            margin-bottom: 0;
-        }
+            
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+            dl{
+                dt{
+                    font-size: 18px;
+                    padding: 5px 0;
+                }
+                dd{
+                    text-indent: 2rem;
+                    font-size: 16px;;
+                    line-height: 25px;
+                }
+            }
         }
     }
 

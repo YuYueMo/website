@@ -24,7 +24,7 @@ const MyPage = () => {
           <h2>个人优势</h2>
           <ul className="numList">
             <li>精通 HTML5 和 CSS3 的布局与样式;</li>
-            <li>掌握 JavaScript（ES6+）语法，熟练运用;</li>
+            <li>掌握 JavaScript(ES6+) 语法，熟练运用;</li>
             <li>熟练使用 React 框架，掌握 Vue 框架;</li>
             <li>熟悉 Ant Design、TaroUI 和 Element 等组件库;</li>
             <li>熟悉 Umi Max、Taro 等前端应用开发框架;</li>
